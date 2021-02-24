@@ -1,0 +1,9 @@
+{
+  "name": "net-promoter-score-api",
+  "version": "1.0.0",
+  "description": "API for Net Promoter Score",
+  "main": "index.js",
+  "repository": "https://github.com/dcbCIn/NetPromoterScore-api",
+  "author": "dcruzb@gmail.com",
+  "license": "MIT"
+}

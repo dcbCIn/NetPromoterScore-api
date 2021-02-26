@@ -9,7 +9,7 @@ export class CreateUsers1614300621689 implements MigrationInterface {
                 columns: [
                     { 
                         name: "id",
-                        type: "uuid",
+                        type: "integer",
                         isPrimary: true
                     },
                     {
@@ -24,6 +24,11 @@ export class CreateUsers1614300621689 implements MigrationInterface {
                         name: "created_at",
                         type: "timestamp",
                         default: "now()"
+                    },
+                    {
+                        name: "updated_at",
+                        type: "timestamp",
+                        default: "null"
                     }
                 ]
             })

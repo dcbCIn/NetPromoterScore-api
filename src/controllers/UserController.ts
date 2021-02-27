@@ -19,7 +19,7 @@ class UserController {
     const user = usersRepository.create({ name, email })
     await usersRepository.save(user)
     
-    return response.send("Example")
+    return response.status(201).json(user)
   }
 }
 
